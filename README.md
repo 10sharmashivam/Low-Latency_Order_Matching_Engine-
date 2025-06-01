@@ -10,6 +10,43 @@ A high-performance order matching engine designed for financial markets, built w
 - **Modern C++**: Built with C++20 features and best practices
 - **Optimized Build**: Compiler optimizations enabled for maximum performance
 
+## Tech Stack
+
+### Core Technologies
+- **Programming Languages**:
+  - C++20 (Core Engine)
+  - Python 3.x (Testing & Utilities)
+- **Build System**: CMake 3.16+
+- **Containerization**: Docker & Docker Compose
+
+### Dependencies
+- **C++ Dependencies**:
+  - yaml-cpp: Configuration management and parsing
+  - pthread: POSIX threads for concurrent operations
+  - Standard Library: C++20 STL features
+- **Python Dependencies**:
+  - Standard Library: socket, time
+
+### Development & Build Tools
+- **Compiler**: GCC/Clang with C++20 support
+- **Optimization Flags**:
+  - `-O3`: Maximum optimization level
+  - `-march=native`: CPU-specific optimizations
+- **Version Control**: Git
+
+### Architecture Components
+- **Core Engine**: C++20-based order matching system
+- **Testing & Utilities**: Python-based order injector and testing tools
+- **Concurrency**: Lock-free data structures and queues
+- **IPC**: Unix Domain Sockets for inter-process communication
+- **Configuration**: YAML-based configuration system
+- **Testing**: Unit testing framework (planned)
+
+### Deployment
+- **Containerization**: Docker-based deployment
+- **Environment**: Linux-based systems
+- **Build Process**: Multi-stage Docker builds
+
 ## Project Structure
 
 ```
